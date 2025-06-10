@@ -3,7 +3,7 @@ import java.util.Stack;
 
 public class RemoteControl {
     private Command slot;
-    private Stack<Command> commandHistory = new Stack<>();
+    private final Stack<Command> commandHistory = new Stack<>();
 
     public void setCommand(Command command) {
         this.slot = command;

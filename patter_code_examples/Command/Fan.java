@@ -1,6 +1,6 @@
 // Fan.java (Receptor)
 public class Fan {
-    private String location;
+    private final String location;
     private boolean isOn = false;
 
     public Fan(String location) {
